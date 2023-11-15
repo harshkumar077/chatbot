@@ -6,7 +6,7 @@ from langchain.document_loaders import DirectoryLoader, TextLoader
 from PyPDF2 import PdfReader
 
 # Set OpenAI API Key directly
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'sk-1cDql8hVnFi1Q3haJe3MT3BlbkFJJy######################'
 
 def create_index(file_path: str) -> None:
     reader = PdfReader(file_path)
